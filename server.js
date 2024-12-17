@@ -32,7 +32,7 @@ function broadcastMessage(message) {
   );
 }
 
-const PORT = "https://chatbot-backend-e9ix.onrender.com/";
+const PORT = 3002;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
